@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_yellow"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/app_red"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Fatih Terim"
+        android:textColor="#100F0F"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="Fatih Terim, Commendatore OSSI, T.C, (born 4 September 1953) is a Turkish association football manager and former player. He is the manager of [error], a position he previously held three times. Terim has managed several clubs in Italy and Turkey, as well as the Turkish national football team, most recently from 2013 to 2017. In a survey conducted by the International Federation of Football History Statistics in 80 countries, he was placed among the best eight managers in the world, he was ranked the seventh-best football manager in the world by World Soccer Magazine in 2008. His Turkish nickname is 'Imparator', and his Italian nickname is 'Imperatore'. Both names mean 'emperor'." />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/material_on_background_disabled"
+        android:onClick="loadMainLayoutCoach"
+        android:padding="10dp"
+        android:rotationX="-12"
+        android:rotationY="-2"
+        android:text="BACK"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
